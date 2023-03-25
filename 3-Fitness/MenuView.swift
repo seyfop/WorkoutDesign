@@ -67,7 +67,7 @@ struct MenuView: View {
                 
             }// HStack Bitişi
             Button(action: {self.showMenu.toggle()}) {
-                Text("Tamam").fontWeight(.light).frame(maxWidth: .infinity)
+                Text("Done").fontWeight(.light).frame(maxWidth: .infinity)
             }.buttonStyle(ButtonStyleThinOutline())
                 .offset(y: showMenu ? 0 : 300)
                 .blur(radius: showMenu ? 0 : blurRadius)
